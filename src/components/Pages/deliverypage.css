@@ -1,0 +1,82 @@
+
+   .contents {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    background-image: url('C:\Users\Dell\Documents\Task\GrillzUI\grillzui\src\components\images\Assets Task\dots-bg2.svg');
+    border-radius: 10px; 
+  }
+
+  .lcontent {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px; 
+  }
+
+  .left-content-top {
+    display: flex;
+    align-items: center;
+  }
+
+  .limage {
+    max-width: 100px;
+    height: auto;
+    margin:40px;
+  }
+
+  .left-content-bottom {
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+
+  .left-content-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bottom-image {
+    max-width: 100px;
+    height: auto;
+    margin:50px;
+  }
+
+  .rightcontent {
+    background-color: rgb(244, 245, 247);
+    flex: 1;
+    padding: 30px;
+    height: 450px;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 400px; 
+    margin: 0 auto; 
+  }
+  
+
+  .content-image {
+    width: 40%;
+    height: 30%;
+    margin: 60px 0;
+
+  }
+
+  .content-heading {
+    font-size: 24px;
+  }
+
+  .content-para {
+    font-size: 16px;
+  }
+  #arrowrsyb{
+     font-size:120px;
+     margin-left: -50px;
+     color: rgb(2, 55, 48);
+  }

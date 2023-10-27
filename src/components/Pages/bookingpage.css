@@ -1,0 +1,136 @@
+.centered-box {
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+  }
+  #greendiv{
+    background-color: #346b65;
+    height: 10px;
+    width: 80px;
+    margin-left: 170px;
+    top: 20px;
+  }
+.centerdiv {
+    background-color: #fff;
+    padding: 10% 20%;
+    z-index: 1;
+  }
+  
+  .text-below-input {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px; 
+  }
+  
+  .text-below-input p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #022d99;
+    margin: 0;
+  }
+  
+  .text-below-input-values {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1px; 
+  }
+  
+  .text-below-input-values p {
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+  }
+  
+  
+  
+  .text-below-input-values p {
+    font-size: 14px;
+    color: #767373; 
+    margin: 0;
+  }
+  
+  .left-image,
+  .right-image {
+    height: auto;
+    position: absolute; 
+    top: 50%; 
+    transform: translateY(-50%); 
+  }
+  
+  .left-image {
+    left: -185px; 
+    width: 700px;
+    z-index: 2;
+  }
+  
+  .right-image {
+    right: -130px; 
+    width: 350px;
+  }
+.dotimage1{
+    position: relative;
+    margin-left: 750px;
+    bottom: -350px;
+}
+.dotimage2{
+    position: relative;
+    margin-right: 750px;
+    bottom: 350px;
+}
+.input-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px #fcb8b8d2;
+    border-radius: 5px;
+  }
+  
+  .input-box {
+    padding: 19px 110px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .input-button {
+    padding: 16px 24px;
+    background-color: #346b65;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+#greendiv {
+    background-color: #346b65;
+    height: 10px;
+    width: 80px;
+    margin-left: 170px;
+    top: 200px;
+    position: absolute;
+  }
+  
+  h5{
+    position: absolute;
+    font-size: larger;
+    top: 220px;
+    left: 49%;
+    transform: translateX(-50%);
+  }
+  .icon{
+    color: rgb(210, 5, 5);
+    size: 1px;
+  }
+  
+  
+  

@@ -1,12 +1,11 @@
 
 import React from 'react';
 import '../Pages/para1.css';
-const ParaContent = () => {
+const ParaContenttwo = () => {
   return (
     <div className="para-content"> 
       <div className="leftpara">
-      <p className='green2'><h2>Some top restaurant for dining out or in</h2></p><br/>
-
+      <p className='green2'><h1 style={{color:'darkblue',fontWeight:'bolder'}}>Our<br/> services</h1></p>
         <h2 className="heading"></h2>
       </div>
       <div className="rightpara">
@@ -21,4 +20,4 @@ const ParaContent = () => {
   );
 };
 
-export default ParaContent;
+export default ParaContenttwo;
