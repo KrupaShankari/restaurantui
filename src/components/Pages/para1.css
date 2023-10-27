@@ -1,0 +1,48 @@
+   .l-content {
+    width: 70%;
+    margin-left: 100px;
+    margin-bottom: -200px;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    /* padding: 20px; */
+    border-radius: 10px;
+  }
+.para-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fcfbfb;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%; 
+    margin: 10px auto; 
+    min-height: 200px; 
+  }
+  .green2{
+    width: 100%;
+    padding-left: 40px;
+    color: #080808;
+    border-left: 20px solid #3d7576;
+}
+  
+  .leftpara {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .rightpara {
+    flex: 2;
+  }
+  /* .heading {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  } */
+  
+  .paragraph {
+    text-align: right;
+    font-size: 16px;
+    color: #555;
+    /* line-height: 1.5; */
+  }
+  
+    

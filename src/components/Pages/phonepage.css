@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#container{
+    height: 100%;
+    width: 100%;
+}
+/* gray color container  */
+#gry{
+    background: linear-gradient(0deg, rgba(115, 115, 115, 0.063) 0%, rgba(160, 160, 160, 0.068) 100%);
+    width: 80vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+}
+#gry > div{
+    height: 100%;
+    width: 100%;
+}
+/* left side of container */
+
+.green{
+    width: 100%;
+    margin-top: 200px;
+    margin-left:110px ;
+    padding-left: 40px;
+    font-size: 23px;
+    font-family: "adobe-clean", sans-serif;
+    color: #2f276a;
+    text-align: justify;
+    border-left: 20px solid #3d7576;
+}
+.para{
+    color: rgb(78, 78, 78);
+    margin-left: 170px;
+    height: fit-content;
+    text-align: justify;
+    width: 45%;
+}
+.container-1{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.playstores{
+    height: 60px;
+}
+.appstores{
+    height: 40px;
+}
+/* right side of container */
+#phone{
+    position: relative;
+}
+#dotbg img{
+    margin-top: 100px;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    right: 220px;
+    z-index: -1;
+}
+#cauli{
+    height: 500px;
+    position: absolute;
+    top: 200px;
+   left:-50px;
+    z-index: 1;
+}
+#appscreen{
+    position: absolute;
+    top: 0;
+    left: 100px;
+    z-index: 2;
+    height: 730px;
+}
+
+
+@media only screen and (max-width:768px){
+    #gry{
+        display: flex;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+}
+@media only screen and (min-width:1024px) and (max-width:1439px){
+    .green{
+        margin-top: 150px;
+        margin-left: 70px;
+        padding-left: 20px;
+        font-size: 15px;
+    }
+    .para{
+        margin-left: 110px;
+        font-size: 12px;
+    }
+    .playstores{
+        height: 40px;
+    }
+    .appstores{
+        height: 28px;
+    }
+    
+#dotbg img{
+    margin-top:100px;
+    height: 200px;
+    width: 200px;
+    right: 150px;
+}
+#cauli{
+    height: 350px;
+    top: 150px;
+   left:-20px;
+}
+#appscreen{
+    position: absolute;
+    top: 0;
+    left: 80px;
+    height: 550px;
+}
+}
